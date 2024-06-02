@@ -1,0 +1,36 @@
+:root {
+  --black: #111111;
+  --pink: #ac2b85;
+  --main: #fff;
+}
+
+* {
+  background: var(--black);
+  color: var(--pink);
+}
+.input_section h4{
+  color: var(--main);
+}
+.input_section .inputs{
+  background-color: var(--black);
+  border-color: var(--pink);
+}
+.input_section .submit_btn{
+  background-color: var(--pink);
+  border: transparent;
+  color: var(--main);
+}
+.input_section .submit_btn:hover {
+  background-color: var(--pink);
+  border: transparent;
+  color: var(--main);
+}
+.wrapper h1{
+  font-size: 46px;
+}
+
+@media (max-width: 1040px) {
+  .wrapper h1{
+    font-size: 31px;
+  }
+}
